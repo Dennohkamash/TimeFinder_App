@@ -65,7 +65,7 @@ class _RootwidgetState extends State<Rootwidget> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const Secondscreen()));
+                            builder: (context) => const SecondScreen()));
                   },
                   child: const Text(
                     "PROCEED",
